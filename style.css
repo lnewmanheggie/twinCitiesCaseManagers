@@ -12,7 +12,7 @@ a:hover {
 }
 
 .container {
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
 }
 
 /* HEADER */
@@ -59,9 +59,6 @@ header {
     line-height: 4rem;
 }
 
-.fixedFoot {
-    position: fixed;
-}
 
 .homeBtn {
     margin: 2rem;
@@ -106,9 +103,6 @@ header {
 .browse {
     margin-bottom: 2rem;
 }
-
-/* Share */
-
 
 
 /* FOOTER */
