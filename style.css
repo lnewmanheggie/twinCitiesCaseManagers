@@ -1,0 +1,151 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    margin-bottom: 6rem;
+}
+
+/* HEADER */
+header h4 {
+    margin-left: 27%;
+    margin-top: 3rem;
+    font-style: italic;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+header {
+    background: #8ad1d1;
+    box-shadow: 1px 1px 10px 1px #888888;
+}
+
+.account {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    padding: 1rem;
+    background-color: white;
+    text-align: center;
+    border-radius: 50%;
+}
+
+/* LOGIN PAGE */
+.login {
+    width: 35rem;
+    margin-top: 4.5rem;
+}
+
+/* HOMEPAGE */
+
+.home {
+    margin-top: 4.5rem;
+    width: 45rem;
+}
+
+.homeP {
+    line-height: 4rem;
+}
+
+.fixedFoot {
+    position: fixed;
+}
+
+.homeBtn {
+    margin: 2rem;
+}
+
+/* SEARCH */
+.search,
+.share-box {
+    margin-top: 4.5rem;
+    width: 60rem;
+}
+
+.search a {
+    color:rgb(150, 150, 150);
+}
+
+.searchBar {
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.searchCategory {
+    margin-top: 3rem;
+}
+
+.searchCategory a {
+    color: white;
+}
+
+.browseCategory {
+    margin-top: 3rem;
+}
+
+.browseCategory a {
+    color: black;
+}
+
+.browseCategory a:hover {
+    color:rgb(116, 116, 116);
+}
+
+.browse {
+    margin-bottom: 2rem;
+}
+
+/* Share */
+
+
+
+/* FOOTER */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 4rem; 
+    line-height: 60px;
+    background-color: white;
+    text-align: center;
+    color: rgb(150, 150, 150);
+}
+
+@media only screen and (max-width: 500px) {
+    header h4 {
+        margin-top: 1rem;
+    }
+
+    header h1 {
+        margin-bottom: 2rem;
+    }
+
+    .login, 
+    .home {
+        width: 100%;
+        margin-top: 4.5rem;
+    }
+
+    .homeBtn {
+        margin: 1rem;
+    }
+
+    footer {
+        font-size: 0.8rem;  
+    }
+
+}
+
+
